@@ -26,7 +26,7 @@ const Pizzas = [
   },
   {
     id: 3,
-    name: "Pizza hawaiana",
+    name: "hawaiana",
     price: 10,
     ingredients: [
       "Salsa de tomate",
@@ -38,7 +38,7 @@ const Pizzas = [
   },
   {
     id: 4,
-    name: "Pizza de chorizo",
+    name: "de chorizo",
     price: 800,
     ingredients: [
       "Salsa de tomate",
@@ -50,7 +50,7 @@ const Pizzas = [
   },
   {
     id: 5,
-    name: "Pizza de jamón y champiñones",
+    name: "de jamón y champiñones",
     price: 1500,
     ingredients: [
       "Salsa de tomate",
@@ -62,7 +62,7 @@ const Pizzas = [
   },
   {
     id: 6,
-    name: "Pizza de jamón y morrones",
+    name: "de jamón y morrones",
     price: 1000,
     ingredients: [
       "Salsa de tomate",
