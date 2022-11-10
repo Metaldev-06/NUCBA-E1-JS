@@ -74,15 +74,15 @@ const Pizzas = [
   },
 ];
 
-console.warn("--------------------A------------------------");
+console.error("--------------------A------------------------");
 
 Pizzas.forEach((pizza) => {
-  if (!(pizza.id % 2) == 0) {
+  if (!(pizza.id % 2 == 0)) {
     console.log(`El precio de la pizza ${pizza.name} es impar`);
   }
 });
 
-console.warn("--------------------B------------------------");
+console.error("--------------------B------------------------");
 
 Pizzas.forEach((pizza) => {
   if (pizza.price < 600) {
@@ -92,14 +92,17 @@ Pizzas.forEach((pizza) => {
   }
 });
 
-console.warn("--------------------C------------------------");
+console.error("--------------------C------------------------");
 
 Pizzas.forEach((pizza) => {
   console.log(`La pizza ${pizza.name} tiene un precio de $${pizza.price}`);
 });
 
-console.warn("--------------------D------------------------");
+console.error("--------------------D------------------------");
 
 Pizzas.forEach((pizza) => {
-  console.log(`Pizza ${pizza.name} - Ingredientes: \n${pizza.ingredients}`);
+  console.warn(`La pizza ${pizza.name} tiene los siguientes ingredientes:`);
+  pizza.ingredients.forEach((ingrediente) => {
+    console.log(ingrediente);
+  });
 });
