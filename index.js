@@ -78,7 +78,7 @@ console.error("--------------------A------------------------");
 
 Pizzas.forEach((pizza) => {
   if (!(pizza.id % 2 == 0)) {
-    console.log(`El precio de la pizza ${pizza.name} es impar`);
+    console.log(`El id de la pizza ${pizza.name} es impar`);
   }
 });
 
